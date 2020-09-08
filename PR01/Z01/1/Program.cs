@@ -53,7 +53,6 @@ namespace pr01_z1_1
       Console.Beep((int)(ton * 494), (int)(times * 125));
       Thread.Sleep((int)(times * 125));
       Console.Beep((int)(ton * 466), (int)(times * 125));
-      Thread.Sleep(42);
     }
   }
 }
