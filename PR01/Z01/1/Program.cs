@@ -29,7 +29,7 @@ namespace pr01_z1_1
       Console.WriteLine(p);
       Console.WriteLine("Hello Mario!");
       double ton = 0.65f;
-      double times = 0.65f;
+      double times = 0.65f; 
       Console.Beep((int)(ton * 659), (int)(times * 125));
       Console.Beep((int)(ton * 659), (int)(times * 125));
       Thread.Sleep((int)(times * 125));
