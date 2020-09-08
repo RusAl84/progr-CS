@@ -24,6 +24,10 @@ namespace pr01_z1_1
     static void Main(string[] args)
     {
       Person p = new Person("Tony", "Allen ", 32); Console.WriteLine(p);
+
+      Console.Beep(1000, 2*1000);
+
+
     }
   }
 }
